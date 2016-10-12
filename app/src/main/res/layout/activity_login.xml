@@ -49,10 +49,31 @@
         android:layout_below="@id/edtPassword"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/button"
         android:gravity="center"
         android:padding="16dp"
-        android:layout_marginTop="16dp"
         android:text="Login"
         android:textAllCaps="true"/>
+    <TextView
+        android:id="@+id/tvForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:text="Forgot password?"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvForgot"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Sign Up for Facebook"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"/>
 </RelativeLayout>
